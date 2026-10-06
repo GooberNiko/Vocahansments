@@ -1,0 +1,186 @@
+INFO  Using log config file: jar:file:/C:/Users/slimm/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Loading previous preferences: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (976 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (6520 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\dse (HeadlessAnalyzer)  
+INFO  Creating project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\dse (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\dse (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Users\slimm\tools\jdk-21.0.12.1+1\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\GitHub CLI\, C:\Program Files\Go\bin, C:\Program Files (x86)\cloudflared\, C:\Program Files\Tailscale\, C:\Users\slimm\.cargo\bin, C:\Users\slimm\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin, C:\Users\slimm\.local\bin, C:\Users\slimm\AppData\Local\Programs\Python\Python310\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python310\, C:\Users\slimm\AppData\Local\Programs\Python\Python313-32\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python313-32\, C:\Users\slimm\AppData\Local\Programs\Python\Python314\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python314\, C:\Users\slimm\AppData\Local\Microsoft\WindowsApps, C:\Users\slimm\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\slimm\AppData\Local\Programs\GoExport, C:\Users\slimm\AppData\Local\Programs\Ollama, C:\Users\slimm\AppData\Roaming\npm, C:\Users\slimm\AppData\Local\Microsoft\WinGet\Links, C:\Users\slimm\AppData\Local\Microsoft\WinGet\Packages\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\platform-tools, C:\Users\slimm\AppData\Local\Unity\bin, C:\Users\slimm\go\bin, C:\Users\slimm\AppData\Local\Python\bin] (ProgramLoader)  
+WARN  Invalid or missing function at 10010f20 (ExportDataDirectory)  
+INFO  TLS callbacks at 100295f8 (TLSDirectory)  
+WARN  Invalid or missing function at 105ebbac (ExportDataDirectory)  
+WARN  Invalid or missing function at 100d76bc (ExportDataDirectory)  
+INFO  Additional info:
+Loading file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll?MD5=216c12753f3500856dc24af156a5c444...
+------------------------------------------------
+
+Searching 36 paths for library ADVAPI32.DLL...
+Loading file:///C:/Windows/SysWOW64/advapi32.dll?MD5=bd14154cf16da806a109b60c14e4b712...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\advapi32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library DSE4_DFT.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 36 paths for library IPHLPAPI.DLL...
+Loading file:///C:/Windows/SysWOW64/IPHLPAPI.DLL?MD5=afab86670b6b79c189d65ade30deb38a...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\iphlpapi.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library KERNEL32.DLL...
+Loading file:///C:/Windows/SysWOW64/kernel32.dll?MD5=7180141a89985451fec9e096fc1e64a9...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library MFC110U.DLL...
+Loading file:///C:/Windows/SysWOW64/mfc110u.dll?MD5=b8de851298e99a005bfd34aa906b3fe8...
+Using existing exports file: C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\symbols\win32\mfc110u.exports
+WARNING: Existing exports file may not be an exact match.
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library MSVCP110.DLL...
+Loading file:///C:/Windows/SysWOW64/msvcp110.dll?MD5=3e29914113ec4b968ba5eb1f6d194a0a...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\msvcp110.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library MSVCR110.DLL...
+Loading file:///C:/Windows/SysWOW64/msvcr110.dll?MD5=4ba25d2cbe1587a841dcfb8c8c4a6ea6...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\msvcr110.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library SHELL32.DLL...
+Loading file:///C:/Windows/SysWOW64/shell32.dll?MD5=347ac97d43e76943fd2c880017b39051...
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shell32.exports
+Library not saved to project.
+------------------------------------------------
+
+Searching 36 paths for library USER32.DLL...
+Loading file:///C:/Windows/SysWOW64/user32.dll?MD5=f6c0cb8b1debf964a0ab5330cca718e6...
+[user32.dll]: failed to create WEVTResource at 100f5a70: Failed to resolve data length for WEVTResource
+Using existing exports file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Library not saved to project.
+------------------------------------------------
+
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\iphlpapi.exports
+Applying C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\symbols\win32\mfc110u.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\msvcr110.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\kernel32.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\user32.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\advapi32.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\shell32.exports
+Applying C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\symbols\win32\msvcp110.exports
+Linking the External Programs of 'DSE4.dll' to imported libraries...
+  [IPHLPAPI.DLL] -> not found in project
+  [DSE4_DFT.DLL] -> not found in project
+  [MFC110U.DLL] -> not found in project
+  [MSVCR110.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [MSVCP110.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\slimm\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.740 secs
+    Apply Data Archives                        0.126 secs
+    Call Convention ID                         0.002 secs
+    Call-Fixup Installer                       0.106 secs
+    Create Address Tables                      0.122 secs
+    Create Address Tables - One Time           0.698 secs
+    Create Function                            0.455 secs
+    Data Reference                             0.129 secs
+    Decompiler Switch Analysis                 2.984 secs
+    Decompiler Switch Analysis - One Time      2.659 secs
+    Demangler Microsoft                        0.110 secs
+    Disassemble                                0.355 secs
+    Disassemble Entry Points                   1.387 secs
+    Embedded Media                             0.082 secs
+    External Entry References                  0.001 secs
+    Function ID                                1.026 secs
+    Function Start Pre Search                  0.021 secs
+    Function Start Search                      0.182 secs
+    Function Start Search After Code           0.028 secs
+    Function Start Search After Data           0.110 secs
+    Non-Returning Functions - Discovered       0.317 secs
+    Non-Returning Functions - Known            0.006 secs
+    PDB Universal                              0.002 secs
+    Reference                                  0.183 secs
+    Scalar Operand References                  1.153 secs
+    Shared Return Calls                        0.296 secs
+    Stack                                      5.426 secs
+    Subroutine References                      0.198 secs
+    Subroutine References - One Time           0.001 secs
+    Windows x86 PE Exception Handling          2.162 secs
+    Windows x86 PE RTTI Analyzer               1.629 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.011 secs
+    WindowsResourceReference                   0.410 secs
+    X86 Function Callee Purge                  0.240 secs
+    x86 Constant Reference Analyzer            3.979 secs
+-----------------------------------------------------
+     Total Time   27 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpAll.java 'C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\dse4.c'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts\DumpAll.java (HeadlessAnalyzer)  
+INFO  DumpAll.java> dumped 1881 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/DSE4.dll (HeadlessAnalyzer)  
+INFO  /DSE4.dll: file created (slimm) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /DSE4.dll (dse:/DSE4.dll) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

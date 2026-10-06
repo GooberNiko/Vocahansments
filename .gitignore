@@ -1,0 +1,16 @@
+# Local copy of the VOCALOID4 install used for testing
+lab/
+
+# Yamaha's binaries, dumps, Ghidra databases and decompiled output - not ours to share
+re/*.dll
+re/*.exe
+re/*.bin
+re/gh/
+re/exe.c
+re/dse4.c
+re/dscl4.c
+re/vsq4.c
+re/*.symbols.txt
+
+__pycache__/
+*.pyc

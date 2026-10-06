@@ -1,0 +1,136 @@
+INFO  Using log config file: jar:file:/C:/Users/slimm/tools/ghidra_12.1.4_PUBLIC/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\application.log (LoggingInitialization)  
+INFO  Loading user preferences: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.4_PUBLIC\preferences (Preferences)  
+INFO  Loading previous preferences: C:\Users\slimm\AppData\Roaming\ghidra\ghidra_12.1.2_PUBLIC\preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (983 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: SHA1PRNG (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (2561 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\VersionTracking\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger-rmi-trace\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FunctionID\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\JVM\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\PIC\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\GnuDemangler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\DecompilerDependent\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SystemEmulation\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\FileFormats\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\MicrosoftCodeAnalyzer\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Debug\Debugger\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Decompiler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\8051\ghidra_scripts
+    C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\SwiftDemangler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\WildcardAssembler\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\DATA\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BSim\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\BytePatterns\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PyGhidra\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Processors\Atmel\ghidra_scripts
+    C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\PDB\ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Opening existing project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\voca (HeadlessAnalyzer)  
+INFO  Opening project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\voca (HeadlessProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\gh\voca (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:32:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., C:\WINDOWS\SysWOW64, C:\Users\slimm\tools\jdk-21.0.12.1+1\bin, C:\WINDOWS\Sun\Java\bin, C:\WINDOWS\system32, C:\WINDOWS, C:\Program Files\Eclipse Adoptium\jdk-17.0.20.101-hotspot\bin, C:\Program Files (x86)\Common Files\Oracle\Java\java8path, C:\Program Files (x86)\Common Files\Oracle\Java\javapath, C:\Windows\system32, C:\Windows, C:\Windows\System32\Wbem, C:\Windows\System32\WindowsPowerShell\v1.0\, C:\Windows\System32\OpenSSH\, C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common, C:\WINDOWS\System32\Wbem, C:\WINDOWS\System32\WindowsPowerShell\v1.0\, C:\WINDOWS\System32\OpenSSH\, C:\Program Files\dotnet\, C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR, C:\Program Files\nodejs\, C:\Program Files\Git\cmd, C:\Program Files\GitHub CLI\, C:\Program Files\Go\bin, C:\Program Files (x86)\cloudflared\, C:\Program Files\Tailscale\, C:\Users\slimm\.cargo\bin, C:\Users\slimm\AppData\Local\Programs\Eclipse Adoptium\jdk-21.0.11.10-hotspot\bin, C:\Users\slimm\.local\bin, C:\Users\slimm\AppData\Local\Programs\Python\Python310\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python310\, C:\Users\slimm\AppData\Local\Programs\Python\Python313-32\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python313-32\, C:\Users\slimm\AppData\Local\Programs\Python\Python314\Scripts\, C:\Users\slimm\AppData\Local\Programs\Python\Python314\, C:\Users\slimm\AppData\Local\Microsoft\WindowsApps, C:\Users\slimm\AppData\Local\Programs\Microsoft VS Code\bin, C:\Users\slimm\AppData\Local\Programs\GoExport, C:\Users\slimm\AppData\Local\Programs\Ollama, C:\Users\slimm\AppData\Roaming\npm, C:\Users\slimm\AppData\Local\Microsoft\WinGet\Links, C:\Users\slimm\AppData\Local\Microsoft\WinGet\Packages\Google.PlatformTools_Microsoft.Winget.Source_8wekyb3d8bbwe\platform-tools, C:\Users\slimm\AppData\Local\Unity\bin, C:\Users\slimm\go\bin, C:\Users\slimm\AppData\Local\Python\bin] (ProgramLoader)  
+INFO  Additional info:
+Loading file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe?MD5=7024ef55b5088ab0e12caf3bfda5acf3...
+[VOCALOID4_dump.exe]: failed to create BitmapResource at 005f3f20: Conflicting data exists at address 005f4340 to 0062f6c1
+[VOCALOID4_dump.exe]: failed to create BitmapResource at 005f4130: Conflicting data exists at address 005f4340 to 0062f6c1
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  /VOCALOID4_dump.exe: file deleted (slimm) (LocalFileSystem)  
+INFO  Deleted local file VOCALOID4_dump.exe (GhidraFileData)  
+WARN  REPORT: Removed conflicting program file from project: /VOCALOID4_dump.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: LabelIat.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts\LabelIat.java (HeadlessAnalyzer)  
+INFO  LabelIat.java> labeled 1512 (GhidraScript)  
+INFO  REPORT: Execute script: SeedFuncs.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts\SeedFuncs.java (HeadlessAnalyzer)  
+INFO  SeedFuncs.java> seeded 5349 (GhidraScript)  
+INFO  REPORT: Execute script: SeedFuncs2.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts\SeedFuncs2.java (HeadlessAnalyzer)  
+INFO  SeedFuncs2.java> seeded2 4120 (GhidraScript)  
+INFO  ANALYZING all memory and code: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: C:\Users\slimm\tools\ghidra_12.1.4_PUBLIC\Ghidra\Features\Base\data\PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: missing PDB information in program metadata (PdbUniversalAnalyzer)  
+INFO  Packed database cache: C:\Users\slimm\AppData\Local\ghidra\packed-db-cache (PackedDatabaseCache)  
+ERROR Couldn't create UnwindMapEntry data @ 00582f88. UnwindMapEntry data type at 00582f88 doesn't refer to a valid location for an action. (CreateEHFuncInfoBackgroundCmd)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+INFO  Unprocessed TypeDescriptor: void * (TypeDescriptorModel)  
+ERROR Failed to disassemble at 00540052 (EHDataTypeUtilities)  
+ERROR Failed to disassemble at 00540064 (EHDataTypeUtilities)  
+ERROR Failed to disassemble at 0054005e (EHDataTypeUtilities)  
+ERROR Failed to disassemble at 0054006a (EHDataTypeUtilities)  
+INFO  Applied data type archive: windows_vs12_32 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.728 secs
+    Apply Data Archives                        0.103 secs
+    Call Convention ID                         0.070 secs
+    Call-Fixup Installer                       0.143 secs
+    Create Address Tables                      0.317 secs
+    Create Address Tables - One Time           0.690 secs
+    Create Function                            0.121 secs
+    Data Reference                             0.900 secs
+    Decompiler Switch Analysis                 1.592 secs
+    Decompiler Switch Analysis - One Time      5.097 secs
+    Demangler Microsoft                        0.198 secs
+    Disassemble                                0.002 secs
+    Disassemble Entry Points                   0.090 secs
+    Embedded Media                             0.026 secs
+    External Entry References                  0.000 secs
+    Function ID                                2.788 secs
+    Function Start Pre Search                  0.052 secs
+    Function Start Search                      1.046 secs
+    Function Start Search After Code           0.456 secs
+    Function Start Search After Data           0.550 secs
+    Non-Returning Functions - Discovered       2.051 secs
+    Non-Returning Functions - Known            0.026 secs
+    PDB Universal                              0.002 secs
+    Reference                                  0.997 secs
+    Scalar Operand References                  2.205 secs
+    Shared Return Calls                        0.778 secs
+    Stack                                     11.689 secs
+    Subroutine References                      0.693 secs
+    Windows x86 PE Exception Handling          1.931 secs
+    Windows x86 PE RTTI Analyzer               5.250 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.012 secs
+    WindowsResourceReference                   0.389 secs
+    X86 Function Callee Purge                  0.292 secs
+    x86 Constant Reference Analyzer           11.533 secs
+-----------------------------------------------------
+     Total Time   52 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpAll.java 'C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\exe.c'  (HeadlessAnalyzer)  
+INFO  SCRIPT: C:\Users\slimm\Desktop\Claude\Toolz\Vocahansments\re\scripts\DumpAll.java (HeadlessAnalyzer)  
+WARN  Decompiling 00420020, pcode error at 00420024: Unable to resolve constructor at 00420024 (DecompileCallback)  
+WARN  Decompiling 00430038, pcode error at c88b0007: Could not follow disassembly flow into non-existing memory at c88b0007 (DecompileCallback)  
+WARN  Decompiling 00460067, pcode error at 004600c6: Unable to resolve constructor at 004600c6 (DecompileCallback)  
+WARN  Decompiling 004b0043, pcode error at 8b02fac1: Could not follow disassembly flow into non-existing memory at 8b02fac1 (DecompileCallback)  
+WARN  Decompiling 004d005c, pcode error at 004d005d: Unable to resolve constructor at 004d005d (DecompileCallback)  
+WARN  Decompiling 0050004f, pcode error at 00500056: Unable to resolve constructor at 00500056 (DecompileCallback)  
+WARN  Decompiling 008f8001, pcode error at 45ec84f7: Could not follow disassembly flow into non-existing memory at 45ec84f7 (DecompileCallback)  
+INFO  DumpAll.java> dumped 9435 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///C:/Users/slimm/Desktop/Claude/Toolz/Vocahansments/re/VOCALOID4_dump.exe (HeadlessAnalyzer)  
+INFO  /VOCALOID4_dump.exe: file created (slimm) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /VOCALOID4_dump.exe (voca:/VOCALOID4_dump.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  
