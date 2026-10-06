@@ -6,7 +6,7 @@ It's 2016. Your VOCALOID4 editor looks like an Excel spreadsheet that gave up. Y
 
 **Stop accepting this.**
 
-Vocahansments is a pile of native DLL mods that crawl *inside* the VOCALOID4 Editor (`VOCALOID4.exe` 4.x, the 32-bit "Vocaloid4FE" build) and give it a knife, a pitch pen, a live pitch curve, themes, and, for reasons nobody can explain, **gravity**. They are not Job plugins. They are much worse than Job plugins. They are *inside the walls*.
+Vocahansments is a pile of native DLL mods that crawl *inside* the VOCALOID4 Editor (`VOCALOID4.exe` 4.x, 32 bit) and give it a knife, a pitch pen, a live pitch curve, themes, and, for reasons nobody can explain, **gravity**. They are not Job plugins. They are much worse than Job plugins. They are *inside the walls*.
 
 | Mod | What it does | Vibe |
 |---|---|---|
@@ -23,11 +23,11 @@ Vocahansments is a pile of native DLL mods that crawl *inside* the VOCALOID4 Edi
 1. **Close VOCALOID4.** It's shy. It won't let you touch its files while it's awake.
 2. Grab `Vocahansments-0.1.zip` from [Releases](../../releases), unzip it anywhere (or just use the `dist\` folder from this repo).
 3. Double-click `install.cmd`.
-4. It asks for your VOCALOID4 folder: the one containing `VOCALOID4.exe`, usually `C:\Program Files (x86)\Vocaloid4FE`. Type it, paste it, or **drag the folder into the window** like a raccoon dragging a pizza.
+4. It asks for your VOCALOID4 folder: the one containing `VOCALOID4.exe`, usually `C:\Program Files (x86)\Vocaloid4`. Type it, paste it, or **drag the folder into the window** like a raccoon dragging a pizza.
 5. Say yes to the admin prompt. (It writes into `Program Files`. Windows gets nervous about that. Windows gets nervous about everything.)
 6. Start VOCALOID4. You'll see a **Mods** menu before Help and a 🔪 knife button after the eraser. Congratulations, your editor is armed now.
 
-Prefer typing? `install.cmd "D:\path\to\Vocaloid4FE"` skips the question.
+Prefer typing? `install.cmd "D:\path\to\Vocaloid4"` skips the question.
 
 **Uninstall:** run `uninstall.cmd` and give it the same folder. Everything goes away except your themes and settings in `%APPDATA%\Vocahansments`, which we keep because we're sentimental.
 
